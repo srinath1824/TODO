@@ -1,0 +1,11 @@
+const actionTypes = {
+  CLICK_CREATE: "click/CLICK_CREATE",
+  START_EDITING: "set/START_EDITING",
+  EDIT_ITEM: "set/EDIT_ITEM",
+  CLICK_EDIT: "set/CLICK_EDIT",
+  DELETE_ITEM: "set/DELETE_ITEM",
+  START_DELETING: "set/START_DELETING",
+  COMPLETE_TODO: "set/COMPLETE_TODO"
+};
+
+export default actionTypes;
