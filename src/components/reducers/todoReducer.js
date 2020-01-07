@@ -3,11 +3,18 @@ import types from "../actions/todoActions";
 const initialState = {
   items: [],
   editFlag: false,
-  deleteFlag: false
+  deleteFlag: false,
+  windowClose: false
 };
 
 export default (state = initialState, action) => {
   switch (action.type) {
+    case types.WINDOW_CLOSE: {
+      return {
+        ...state,
+        windowClose: action.data
+      };
+    }
     case types.CLICK_CREATE: {
       return {
         ...state,

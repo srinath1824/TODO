@@ -5,7 +5,8 @@ const actionTypes = {
   CLICK_EDIT: "set/CLICK_EDIT",
   DELETE_ITEM: "set/DELETE_ITEM",
   START_DELETING: "set/START_DELETING",
-  COMPLETE_TODO: "set/COMPLETE_TODO"
+  COMPLETE_TODO: "set/COMPLETE_TODO",
+  WINDOW_CLOSE: "SET/WINDOW_CLOSE"
 };
 
 export default actionTypes;
